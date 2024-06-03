@@ -12,8 +12,12 @@ body {
     padding: 20px;
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin:  auto;
     border: 2px solid black;
+}
+
+.numbers {
+    margin-top: 20px;
 }
 
 h1 {
@@ -33,6 +37,13 @@ h1 {
     font-size: 1.2em;
     color: black;
 }
+
+.results {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
  /* Responsiveness for main container */
  @media (max-width: 768px) {
